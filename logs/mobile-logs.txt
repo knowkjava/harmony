@@ -1,0 +1,208 @@
+03-30 13:23:20.171   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  success to add processor, processorId=1
+03-30 13:23:20.214   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 开始追踪应用启动耗时 ===
+03-30 13:23:20.216   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     Ability onCreate
+03-30 13:23:20.261   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     Ability onWindowStageCreate
+03-30 13:23:20.285   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     Ability onForeground
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [PrivacyManager] 加载隐私设置: {"isFirstLaunch":false,"anrReportEnabled":true,"crashReportEnabled":true,"angryClickReportEnabled":true,"dataCollectionLevel":2,"crashReportingLevel":1}
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [PrivacyManager] 初始化完成
+03-30 13:23:20.316   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     PrivacyManager initialized, isFirstLaunch: false
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     >>>>>> [APM] initializeOpenKit 开始执行 <<<<<<
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     PrivacyManager:true,true,true,2, 1
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] 屏幕分辨率: 1320x2856
+03-30 13:23:20.316   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] 设备信息: osName=OpenHarmony-6.0.2.130, manufacturer=HUAWEI, modelId=emulator, appVersion=6.0.0
+03-30 13:23:20.317   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [OpenKitImpl] initialize
+03-30 13:23:20.317   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [BeaconSender] init
+03-30 13:23:20.318   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] GET https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=1&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=0&resp=json
+03-30 13:23:20.318   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0"] after create: undefined
+03-30 13:23:20.347   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] OpenKit built, 等待初始化完成...
+03-30 13:23:20.347   4166-4166     A00000/EntryAbility             cn.groupstars.arksdk  I     ErrorObserver registered with id: 0
+03-30 13:23:20.367   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     waitForInit completed, isFirstLaunch: false
+03-30 13:23:20.368   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     Loading page: pages/Index
+03-30 13:23:20.503   4166-4166     A00000/testTag                  cn.groupstars.arksdk  I     Succeeded in loading the content.
+03-30 13:23:20.522   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     全局页面生命周期观察者已注册
+03-30 13:23:20.522   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] UIObserver已通过UIContext成功注册
+03-30 13:23:20.524   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Main window is fully displayed.
+03-30 13:23:20.527   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient GET请求成功: {"mobileAgentConfig":{"maxBeaconSizeKb":150,"selfmonitoring":true,"maxSessionDurationMins":360,"maxEventsPerSession":100000,"sessionTimeoutSec":600,"sendIntervalSec":120,"visitStoreVersion":2,"maxCachedCrashesCount":10,"rageTapConfig":{"tapDuration":100,"dispersionRadius":100,"timespanDifference":300,"minimumNumberOfTaps":3},"replayConfig":{"protocolVersion":1,"selfmonitoring":0,"pixelCopy":true,"colorMasking":true,"composeEnabled":true}},"appConfig":{"capture":1,"gen3Enabled":false,"captureLifecycle":1,"reportCrashes":1,"reportErrors":1,"trafficControlPercentage":100,"replayConfig":{"capture":false,"imageRetentionTimeInMinutes":1440},"applicationId":"007c9c94-4a00-483d-858c-3123fc63de29"},"dynamicConfig":{"serverId":4,"switchServer":false,"status":"OK"},"timestamp":1774587187794}
+03-30 13:23:20.529   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [DT] response.valid=true
+03-30 13:23:20.529   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [DT] response.serverId=4
+03-30 13:23:20.529   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [DT] okServerId=4
+03-30 13:23:20.529   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] waitForInit 回调: success=true
+03-30 13:23:20.545   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面生命周期事件 - 页面: pages/Index, 状态: 0
+03-30 13:23:20.545   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面: pages/Index, 状态: 0
+03-30 13:23:20.545   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面开始加载 - pages/Index
+03-30 13:23:20.545   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面开始加载: pages/Index
+03-30 13:23:20.545   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 开始追踪arkts action === ，action名字：pages/Index
+03-30 13:23:20.548   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面生命周期事件 - 页面: pages/Index, 状态: 2
+03-30 13:23:20.548   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面: pages/Index, 状态: 2
+03-30 13:23:20.548   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面加载完成 - pages/Index
+03-30 13:23:20.548   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面加载完成: pages/Index
+03-30 13:23:20.623   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] OpenKit 初始化完成
+03-30 13:23:20.623   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] OpenKit 初始化成功，开始创建会话
+03-30 13:23:20.623   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 1. 开始创建会话
+03-30 13:23:20.630   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Succeeded in getting account name: user
+03-30 13:23:20.631   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 2. 获取IP地址...
+03-30 13:23:20.631   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [IP] ========== 开始获取IP地址 ==========
+03-30 13:23:20.631   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [IP] 方法1: 尝试 connection.getDefaultNet()...
+03-30 13:23:20.631   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [IP] netHandle: {"netId":101}
+03-30 13:23:20.631   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [IP] 尝试 getConnectionProperties...
+03-30 13:23:20.633   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [IP] 方法1成功，获取到IP: 10.0.2.15
+03-30 13:23:20.633   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] IP: "10.0.2.15"
+03-30 13:23:20.633   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 3. 获取运营商信息...
+03-30 13:23:20.633   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [OPERATOR] 开始获取运营商信息...
+03-30 13:23:20.635   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [OPERATOR] 运营商代码:
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [OPERATOR] 运营商名称:
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [OPERATOR] 检测到模拟器环境，使用模拟器标识
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [OPERATOR] 运营商信息: EMULATOR 鸿蒙模拟器 模拟器环境
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 运营商: 模拟器环境, 代码: EMULATOR
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 4. 获取位置信息...
+03-30 13:23:20.636   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [LOCATION] 开始获取位置信息...
+03-30 13:23:20.660   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [LOCATION] 位置服务状态: false
+03-30 13:23:20.660   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [LOCATION] 位置服务未开启，使用模拟器默认值
+03-30 13:23:20.660   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 位置: 31.230000, 121.470000
+03-30 13:23:20.660   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 5. 获取屏幕分辨率...
+03-30 13:23:20.661   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 屏幕分辨率: 1320x2856
+03-30 13:23:20.661   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 6. 创建OpenKit会话...
+03-30 13:23:20.661   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [OpenKitImpl] createSession [object Object]
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] created
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] identifyUser [object Object]
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 7. 报告运营商信息...
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] reportCarrier [object Object]
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 报告运营商: 模拟器环境
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] reportConnectionType [object Object]
+03-30 13:23:20.662   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 报告连接类型: Wifi
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] reportNetworkTechnology [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 报告网络技术: EMULATOR
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 8. 报告位置信息...
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] reportGeoLocation [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 报告地理位置: 31.230000;121.470000
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=1)] created [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=1)] reportEvent [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=1)] leaveAction
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 再次调用 identifyUser 触发数据发送...
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] identifyUser [object Object]
+03-30 13:23:20.663   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 手动调用 flush 触发数据发送...
+03-30 13:23:20.664   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] GET https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=0&resp=json&si=5203457_1&ns=1
+03-30 13:23:20.664   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1"] after create: undefined
+03-30 13:23:20.666   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 会话创建成功，包含IP、运营商、位置信息
+03-30 13:23:20.666   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [SESSION] 9. 创建会话流程完成
+03-30 13:23:20.666   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [APM] _createAppSession 执行完成
+03-30 13:23:20.677   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:20.678   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=2)] created [object Object]
+03-30 13:23:20.686   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=2)] leaveAction
+03-30 13:23:20.687   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 结束追踪arkts action === ，action名字：pages/Index
+03-30 13:23:20.696   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient GET请求成功: {"mobileAgentConfig":{"maxBeaconSizeKb":150,"selfmonitoring":true,"maxSessionDurationMins":360,"maxEventsPerSession":100000,"sessionTimeoutSec":600,"sendIntervalSec":120,"visitStoreVersion":2,"maxCachedCrashesCount":10,"rageTapConfig":{"tapDuration":100,"dispersionRadius":100,"timespanDifference":300,"minimumNumberOfTaps":3},"replayConfig":{"protocolVersion":1,"selfmonitoring":0,"pixelCopy":true,"colorMasking":true,"composeEnabled":true}},"appConfig":{"capture":1,"gen3Enabled":false,"captureLifecycle":1,"reportCrashes":1,"reportErrors":1,"trafficControlPercentage":100,"replayConfig":{"capture":false,"imageRetentionTimeInMinutes":1440},"applicationId":"007c9c94-4a00-483d-858c-3123fc63de29"},"dynamicConfig":{"serverId":4,"switchServer":false,"status":"OK"},"timestamp":1774587187794}
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求开始: url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1, payload长度=574
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] POST https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1 vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848200696&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=18&it=1&pa=0&s0=1&t0=0&et=60&na=user&it=1&pa=0&s0=2&t0=1&et=10&na=App%20Started&it=1&pa=1&s0=4&t0=2&et=1&na=App%20Session&it=1&ca=1&pa=0&s0=3&s1=5&t0=2&t1=0&et=60&na=user&it=1&pa=0&s0=6&t0=2&et=1&na=pages%2FIndex&it=1&ca=2&pa=0&s0=7&s1=8&t0=16&t1=9
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848200696&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=18&it=1&pa=0&s0=1&t0=0&et=60&na=user&it=1&pa=0&s0=2&t0=1&et=10&na=App%20Started&it=1&pa=1&s0=4&t0=2&et=1&na=App%20Session&it=1&ca=1&pa=0&s0=3&s1=5&t0=2&t1=0&et=60&na=user&it=1&pa=0&s0=6&t0=2&et=1&na=pages%2FIndex&it=1&ca=2&pa=0&s0=7&s1=8&t0=16&t1=9
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1","2"] after create: undefined
+03-30 13:23:20.697   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] 正在发送POST请求...
+03-30 13:23:20.719   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求成功: statusCode=200, body长度=20
+03-30 13:23:20.726   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:20.726   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=3)] created [object Object]
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=3)] leaveAction
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 结束追踪追踪应用启动耗时 === 
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求开始: url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1, payload长度=382
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] POST https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1 vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848201052&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=1&na=APP%20LAUNCH&it=1&ca=3&pa=0&s0=9&s1=10&t0=65&t1=326
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848201052&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=1&na=APP%20LAUNCH&it=1&ca=3&pa=0&s0=9&s1=10&t0=65&t1=326
+03-30 13:23:21.052   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1","2","3"] after create: undefined
+03-30 13:23:21.053   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] 正在发送POST请求...
+03-30 13:23:21.076   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求成功: statusCode=200, body长度=20
+03-30 13:23:33.383   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Succeeded in clicking the '商品列表' button.
+03-30 13:23:33.385   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面生命周期事件 - 页面: pages/ProductList, 状态: 0
+03-30 13:23:33.385   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面: pages/ProductList, 状态: 0
+03-30 13:23:33.385   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面开始加载 - pages/ProductList
+03-30 13:23:33.385   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面开始加载: pages/ProductList
+03-30 13:23:33.385   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 开始追踪arkts action === ，action名字：pages/ProductList
+03-30 13:23:33.385   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:33.385   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=4)] created [object Object]
+03-30 13:23:33.399   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面生命周期事件 - 页面: pages/Index, 状态: 3
+03-30 13:23:33.399   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面: pages/Index, 状态: 3
+03-30 13:23:33.399   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面生命周期事件 - 页面: pages/ProductList, 状态: 2
+03-30 13:23:33.400   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面: pages/ProductList, 状态: 2
+03-30 13:23:33.400   4166-4166     A00000/PageObserver             cn.groupstars.arksdk  I     页面加载完成 - pages/ProductList
+03-30 13:23:33.400   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [全局页面监控] 页面加载完成: pages/ProductList
+03-30 13:23:33.400   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=4)] leaveAction
+03-30 13:23:33.400   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 结束追踪arkts action === ，action名字：pages/ProductList
+03-30 13:23:33.401   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求开始: url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1, payload长度=392
+03-30 13:23:33.401   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] POST https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1 vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848213401&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=1&na=pages%2FProductList&it=1&ca=4&pa=0&s0=11&s1=12&t0=12724&t1=15
+03-30 13:23:33.401   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1
+03-30 13:23:33.401   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848213401&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=1&na=pages%2FProductList&it=1&ca=4&pa=0&s0=11&s1=12&t0=12724&t1=15
+03-30 13:23:33.401   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1","2","3","4"] after create: undefined
+03-30 13:23:33.402   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] 正在发送POST请求...
+03-30 13:23:33.404   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Succeeded in jumping to the ProductList page.
+03-30 13:23:33.471   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求成功: statusCode=200, body长度=20
+03-30 13:23:36.416   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] 开始发送带 Dynatrace 追踪的 HTTP GET 请求...
+03-30 13:23:36.416   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Starting HTTP GET request to: http://192.168.110.88:8080/demo/test
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RequestInterceptor,dtHttpId:8487e31d-9c8c-4d00-9115-722c8b3aa285
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RequestInterceptor,requestUrl:http://192.168.110.88:8080/demo/test
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Interceptor: Added authorization header
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 开始追踪http request url提交 ===
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=5)] created [object Object]
+03-30 13:23:36.419   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=5)] traceWebRequest [object Object]
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] create
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] start
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] getTag [object Object]
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     the tag:MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RcpAction数量：0
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] getTag [object Object]
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] getWebRequestTag: hashCode=8487e31d-9c8c-4d00-9115-722c8b3aa285, tag=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14
+03-30 13:23:36.420   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Added X-dynaTrace header: MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14
+03-30 13:23:36.464   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     ResponseInterceptor,dtHttpId:8487e31d-9c8c-4d00-9115-722c8b3aa285
+03-30 13:23:36.464   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Interceptor: Parsed authorization header
+03-30 13:23:36.464   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] setBytesSent [object Object]
+03-30 13:23:36.464   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] setBytesReceived [object Object]
+03-30 13:23:36.464   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=14)] stop [object Object]
+03-30 13:23:36.465   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=5)] leaveAction
+03-30 13:23:36.465   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 结束追踪http request url提交 ===
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求开始: url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1, payload长度=500
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] POST https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1 vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848216466&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Ftest&it=1&pa=5&s0=14&t0=15759&s1=15&t1=44&bs=0&br=45&rc=200&et=1&na=http%20request&it=1&ca=5&pa=0&s0=13&s1=16&t0=15758&t1=46
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848216466&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Ftest&it=1&pa=5&s0=14&t0=15759&s1=15&t1=44&bs=0&br=45&rc=200&et=1&na=http%20request&it=1&ca=5&pa=0&s0=13&s1=16&t0=15758&t1=46
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     -----------------payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848216466&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Ftest&it=1&pa=5&s0=14&t0=15759&s1=15&t1=44&bs=0&br=45&rc=200&et=1&na=http%20request&it=1&ca=5&pa=0&s0=13&s1=16&t0=15758&t1=46&tag=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14&x-dynatrace=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14
+03-30 13:23:36.466   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1","2","3","4","5"] after create: undefined
+03-30 13:23:36.467   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     =============tag:MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_5_1_14 has been added to header
+03-30 13:23:36.467   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] 正在发送POST请求...
+03-30 13:23:36.470   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] HTTP Response: statusCode=200
+03-30 13:23:36.470   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Response body: 测试接口：JDK1.8 + SpringBoot2.x + SpringMVC 整合完成！
+03-30 13:23:36.470   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] GET 请求完成: statusCode=200, result=测试接口：JDK1.8 + SpringBoot2.x + SpringMVC 整合完成！
+03-30 13:23:36.493   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求成功: statusCode=200, body长度=20
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] 开始发送带 Dynatrace 追踪的 HTTP POST 请求...
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Starting HTTP POST request to: http://192.168.110.88:8080/demo/hello
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RequestInterceptor,dtHttpId:fef18332-1025-4659-95a1-18fff0fc2996
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RequestInterceptor,requestUrl:http://192.168.110.88:8080/demo/hello
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Interceptor: Added authorization header
+03-30 13:23:38.301   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 开始追踪http request url提交 ===
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [SessionImpl (sessionId=1)] enterAction [object Object]
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=6)] created [object Object]
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=6)] traceWebRequest [object Object]
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] create
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] start
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] getTag [object Object]
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     the tag:MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     RcpAction数量：0
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] getTag [object Object]
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] getWebRequestTag: hashCode=fef18332-1025-4659-95a1-18fff0fc2996, tag=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18
+03-30 13:23:38.302   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Added X-dynaTrace header: MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18
+03-30 13:23:38.329   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     ResponseInterceptor,dtHttpId:fef18332-1025-4659-95a1-18fff0fc2996
+03-30 13:23:38.329   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     Interceptor: Parsed authorization header
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] setBytesSent [object Object]
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] setBytesReceived [object Object]
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [WebRequestTracerImpl (sessionId=1, startSequence=18)] stop [object Object]
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [ActionImpl (sessionId=1, actionId=6)] leaveAction
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     === 结束追踪http request url提交 ===
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求开始: url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1, payload长度=503
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  D     [FetchHttpClient] POST https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1 vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848218330&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Fhello&it=1&pa=6&s0=18&t0=17641&s1=19&t1=28&bs=102&br=46&rc=200&et=1&na=http%20request&it=1&ca=6&pa=0&s0=17&s1=20&t0=17641&t1=28
+03-30 13:23:38.330   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,url=https://192.168.110.114:9999/mbeacon/07bbf916-acd4-4dea-835d-9ecc2f5e2e76?type=m&srvid=4&app=007c9c94-4a00-483d-858c-3123fc63de29&va=8.323.40300&pt=1&tt=okjs&cts=1774587187794&resp=json&si=5203457_1
+03-30 13:23:38.331   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     FetchHttpClient,payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848218330&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Fhello&it=1&pa=6&s0=18&t0=17641&s1=19&t1=28&bs=102&br=46&rc=200&et=1&na=http%20request&it=1&ca=6&pa=0&s0=17&s1=20&t0=17641&t1=28
+03-30 13:23:38.331   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     -----------------payload=vv=3&va=8.323.40300&ap=007c9c94-4a00-483d-858c-3123fc63de29&vn=6.0.0&os=OpenHarmony-6.0.2.130&pt=1&tt=okjs&vi=5203457&dl=2&cl=2&mf=HUAWEI&md=emulator&sw=1320&sh=2856&amp;sn=1&ip=10.0.2.15&tv=1774848200661&amp;mp=1&tx=1774848218330&np=EMULATOR&ct=4&cr=%E6%A8%A1%E6%8B%9F%E5%99%A8%E7%8E%AF%E5%A2%83&lg=31.230000%3B121.470000&et=30&na=http%3A%2F%2F192.168.110.88%3A8080%2Fdemo%2Fhello&it=1&pa=6&s0=18&t0=17641&s1=19&t1=28&bs=102&br=46&rc=200&et=1&na=http%20request&it=1&ca=6&pa=0&s0=17&s1=20&t0=17641&t1=28&tag=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18&x-dynatrace=MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18
+03-30 13:23:38.331   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP]  session list: ["0","1","2","3","4","5","6"] after create: undefined
+03-30 13:23:38.331   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     =============tag:MT_3_4_5203457_1_007c9c94-4a00-483d-858c-3123fc63de29_6_1_18 has been added to header
+03-30 13:23:38.331   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] 正在发送POST请求...
+03-30 13:23:38.334   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] HTTP POST Response: statusCode=200
+03-30 13:23:38.334   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] Response body: Hello SpringBoot + SpringMVC ! 基于JDK1.8 成功运行 ✔
+03-30 13:23:38.334   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [Dynatrace] POST 请求完成: statusCode=200, result=Hello SpringBoot + SpringMVC ! 基于JDK1.8 成功运行 ✔
+03-30 13:23:38.365   4166-4166     A03d00/JSAPP                    cn.groupstars.arksdk  I     [RCP] POST请求成功: statusCode=200, body长度=20
